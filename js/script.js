@@ -1,7 +1,4 @@
-var genera = document.getElementById("genera");
-var annulla = document.getElementById("annulla");
-
-genera.addEventListener("click", function() {
+document.getElementById("genera").addEventListener("click", function() {
     document.getElementById("loadingGif").classList.add("d-none");
     document.getElementById("biglietto").classList.remove("d-none");
 
@@ -19,12 +16,12 @@ genera.addEventListener("click", function() {
         document.getElementById("tdiscount").innerHTML = "Sconto Senior";
         document.getElementById("tprice").innerHTML = km * 0.21 * 60 / 100 + " €"; 
     };
-    
+
     document.getElementById("tcarriage").innerHTML = Math.floor(Math.random()*9)+1;
     document.getElementById("tcode").innerHTML = Math.floor(Math.random() * 100001);
 });
 
-annulla.addEventListener("click", function() {
+document.getElementById("annulla").addEventListener("click", function() {
     document.getElementById("loadingGif").classList.remove("d-none");
     document.getElementById("biglietto").classList.add("d-none");
 
