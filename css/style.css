@@ -27,3 +27,12 @@ label {
     margin-top: 1.2rem;
     margin-bottom: .5rem;
 }
+
+#biglietto {
+    padding-top: 5rem;
+}
+
+.table {
+    width:80%;
+    margin:auto;
+}
