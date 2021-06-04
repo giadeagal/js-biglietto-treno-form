@@ -17,56 +17,56 @@
 </head>
 <body>
     <main>
-            <h2 class="py-4">Calcola il prezzo del tuo biglietto</h2>
-            <section id="calcolatore">
-                <form action="#">
-                    <div class="row justify-content-around">
-                        <div class="col-3 d-flex">
-                            <div class="row">
-                                <div class="col-12">
-                                    <label for="fullname">Nome Cognome</label>
-                                </div>
-                                <div class="col-12">
-                                    <input type="text" name="" id="fullname">
-                                </div>
+        <h2 class="py-4">Calcola il prezzo del tuo biglietto</h2>
+        <section id="calcolatore">
+            <form action="#">
+                <div class="row justify-content-around">
+                    <div class="col-3 d-flex">
+                        <div class="row">
+                            <div class="col-12">
+                                <label for="fullname">Nome Cognome</label>
                             </div>
-                        </div>
-                        <div class="col-3 d-flex">
-                            <div class="row">
-                                <div class="col-12">
-                                    <label for="km">Km da percorrere</label>
-                                </div>
-                                <div class="col-12">
-                                    <input type="number" name="" id="km">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-3 d-flex">
-                            <div class="row">
-                                <div class="col-12">
-                                    <label for="age">Fascia d'età</label>
-                                </div>
-                                <div class="col-12">
-                                    <select name="" id="age">
-                                        <option value="seleziona">Seleziona</option>
-                                        <option value="minnorenne">Minorenne</option>
-                                        <option value="maggiorenne">Maggiorenne</option>
-                                        <option value="over">Over 65</option>
-                                    </select>
-                                </div>
+                            <div class="col-12">
+                                <input type="text" name="" id="fullname">
                             </div>
                         </div>
                     </div>
-                </form>
-                <div class="row justify-content-center">
-                    <div class="col-2"><div class="btn btn-warning my-4">Genera</div></div>
-                    <div class="col-2"><div class="btn btn-warning my-4">Annulla</div></div>
+                    <div class="col-3 d-flex">
+                        <div class="row">
+                            <div class="col-12">
+                                <label for="km">Km da percorrere</label>
+                            </div>
+                            <div class="col-12">
+                                <input type="number" name="" id="km">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 d-flex">
+                        <div class="row">
+                            <div class="col-12">
+                                <label for="age">Fascia d'età</label>
+                            </div>
+                            <div class="col-12">
+                                <select name="" id="age">
+                                    <option value="seleziona">Seleziona</option>
+                                    <option value="minnorenne">Minorenne</option>
+                                    <option value="maggiorenne">Maggiorenne</option>
+                                    <option value="over">Over 65</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </section>
-            <img id="loadingGif" src="https://thumbs.gfycat.com/DesertedIgnorantHydatidtapeworm-size_restricted.gif" alt="">
-            <section id="biglietto">
-                
-            </section>
+            </form>
+            <div class="row justify-content-center">
+                <div class="col-2"><div id="genera" class="btn btn-warning my-4">Genera</div></div>
+                <div class="col-2"><div id="annulla" class="btn btn-warning my-4">Annulla</div></div>
+            </div>
+        </section>
+        <img id="loadingGif" src="https://thumbs.gfycat.com/DesertedIgnorantHydatidtapeworm-size_restricted.gif" alt="">
+        <section id="biglietto">
+            
+        </section>
     </main>
     <script src="js/script.js"></script>
 </body>
