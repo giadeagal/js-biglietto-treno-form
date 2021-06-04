@@ -24,5 +24,7 @@ document.getElementById("genera").addEventListener("click", function() {
 document.getElementById("annulla").addEventListener("click", function() {
     document.getElementById("loadingGif").classList.remove("d-none");
     document.getElementById("biglietto").classList.add("d-none");
-
+    document.getElementById("fullname").value = "";
+    document.getElementById("km").value = "";
+    document.getElementById("age").value = "seleziona";
 });
