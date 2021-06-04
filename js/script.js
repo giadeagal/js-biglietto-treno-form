@@ -7,14 +7,14 @@ document.getElementById("genera").addEventListener("click", function() {
     var age = document.getElementById("age").value;
 
     document.getElementById("tname").innerHTML = fullName;
-    document.getElementById("tprice").innerHTML = km * 0.21 + " €";
+    document.getElementById("tprice").innerHTML = (km * 0.21).toFixed(2) + " €";
 
     if (age == "minorenne") {
         document.getElementById("tdiscount").innerHTML = "Sconto Junior"; 
-        document.getElementById("tprice").innerHTML = km * 0.21 * 80 / 100 + " €";
+        document.getElementById("tprice").innerHTML = (km * 0.21 * 80 / 100).toFixed(2) + " €";
     } else if (age == "over") {
         document.getElementById("tdiscount").innerHTML = "Sconto Senior";
-        document.getElementById("tprice").innerHTML = km * 0.21 * 60 / 100 + " €"; 
+        document.getElementById("tprice").innerHTML = (km * 0.21 * 60 / 100).toFixed(2) + " €"; 
     };
 
     document.getElementById("tcarriage").innerHTML = Math.floor(Math.random()*9)+1;
