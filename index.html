@@ -15,7 +15,48 @@
 <body>
     <main>
         <div class="container">
-            <div id="printer"></div>
+            <h2>Calcola il prezzo del tuo biglietto</h2>
+            <div id="calcolatore">
+                <form action="#">
+                    <div class="row justify-content-around">
+                        <div class="col-3 d-flex">
+                            <div class="row">
+                                <div class="col-12">
+                                    <label for="fullname">Nome Cognome</label>
+                                </div>
+                                <div class="col-12">
+                                    <input type="text" name="" id="fullname">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 d-flex">
+                            <div class="row">
+                                <div class="col-12">
+                                    <label for="km">Km da percorrere</label>
+                                </div>
+                                <div class="col-12">
+                                    <input type="number" name="" id="km">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 d-flex">
+                            <div class="row">
+                                <div class="col-12">
+                                    <label for="age">Fascia d'età</label>
+                                </div>
+                                <div class="col-12">
+                                    <select name="" id="age">
+                                        <option value="seleziona">Seleziona la tua fascia d'età</option>
+                                        <option value="minnorenne">Minorenne</option>
+                                        <option value="maggiorenne">Maggiorenne</option>
+                                        <option value="over">Over 65</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
     </main>
     <script src="js/script.js"></script>
