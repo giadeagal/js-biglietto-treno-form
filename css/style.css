@@ -1,19 +1,29 @@
 body {
-    background-color: #ffc107;
+    background-color: #ffbd00;
 }
 
 h2 {
     font-family: 'Italiana', serif;
     font-weight: bold;
     font-size: 3rem;
+    text-shadow:2px 2px goldenrod ;
 }
 
 main {
+    text-align: center;
+}
+
+#calcolatore {
+    margin-top:10rem;
+    color: #ffbd00;
     width: 80%;
     margin: auto;
     background-color: rgba(0, 0, 0, 0.8);
-    color: #ffc107;
-    text-align: center;
+    box-shadow: 2px 2px goldenrod;
     border-radius: 12px;
-    margin-top:10rem;
+}
+
+label {
+    margin-top: 1.2rem;
+    margin-bottom: .5rem;
 }
